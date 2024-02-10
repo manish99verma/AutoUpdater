@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/MaterialAlertDialog.Material3.Title.Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/downloading"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:progress="10"
+        android:progressTint="#2196F3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MaterialAlertDialog.Material3.Title.Text"
+            android:layout_width="0dp"
+            android:id="@+id/txt_percentage"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:textSize="15sp" />
+
+        <TextView
+            style="@style/MaterialAlertDialog.Material3.Body.Text"
+            android:layout_width="wrap_content"
+            android:id="@+id/txt_file_size"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

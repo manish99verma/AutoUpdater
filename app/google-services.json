@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792050538832",
+    "project_id": "autoupdater-eb2f2",
+    "storage_bucket": "autoupdater-eb2f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792050538832:android:b1a3bad8efb3a219753455",
+        "android_client_info": {
+          "package_name": "com.manish.autoupdater"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEmYDvZV6FuGzL5MQ-NI5EJZ8kOVXy5Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

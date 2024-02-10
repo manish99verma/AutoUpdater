@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Auto Updater</string>
+
+    <string name="update_msg">A newer version of this app is available</string>
+    <string name="update_title">Update</string>
+    <string name="update_negative_btn">Later</string>
+    <string name="update_cancelled">Update cancelled</string>
+    <string name="downloading">Downloading…</string>
+    <string name="unknown_error_occurred">Unknown error occurred</string>
+    <string name="internet_error_occurred">Please Check Your Internet Connection!</string>
+    <string name="title_file_download">APK is downloading</string>
+    <string name="storage_access_required">Storage access is required to downloading the file.</string>
+    <string name="storage_permission_denied">Storage permission request was denied.</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="checking_for_updates">Checking for updates…</string>
+    <string name="already_on_latest_version">Your app is already on latest version.</string>
+    <string name="permissions_not_allowed">Permissions not allowed</string>
+</resources>
